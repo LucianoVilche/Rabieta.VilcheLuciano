@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Merienda+One&display=swap');
+
+/*comienzo del body*/
+body {
+    background-color: #ff329d;
+    position: relative;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:repeat(4, 1fr) ;
+    grid-template-areas: 
+    'header header header'
+    'titulo titulo titulo'
+    'nails nails nails'
+    'footer footer footer';
+}
+/*comienzo del header*/
+.header {
+    grid-area: header;
+    display: flex;
+    position: relative;
+    background-color: #f8c504;
+    border-top: 5px;
+    height: 110px;
+}
+.navegador {
+    margin-left: auto;
+}
+.logo {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    font-family: 'Merienda One', cursive;
+    font-size: 22px;
+}
+    
+.menu ul li a {
+    text-decoration: none;
+    padding: 22px;
+    display: block;
+    color: #04558a;
+    margin-top: 13px;
+    text-shadow: 1px 1px white;
+}
+/*comienzo de la page insumos*/
+.nails {
+    grid-area: nails;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    justify-content: space-around;
+}
+.titulo {
+    grid-area: titulo;
+    font-family: 'Merienda One', cursive;
+    text-align: center;
+}
+.diseño {
+    margin:10px
+}
+/*comienzo del footer*/
+.footer {
+    grid-area: footer;
+    position: relative;
+    background-color: #f8c504;
+    height: 100px;
+    font-family: 'Merienda One', cursive;
+}
+.footer .redes {
+    text-align: end;
+    margin-right: 5px;
+}
+.ig {
+    position: relative;
+    left: 1800px;
+    bottom: 30px;
+}
+.fb {
+    position: relative;
+    left: 1810px;
+    bottom: 30px;  
+}
+.experiencia {
+    position: relative;
+    line-height: 2.5px;
+    bottom: 105px;
+    margin-left: 5px;
+   
+}
+.marca {position: relative;
+    text-align: center;
+    bottom: 110px;
+}
+@media screen and (max-width: 768px) {
+    body {
+        height: 0px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4,1fr);
+        grid-template-areas: 
+        'header header'
+        'titulo titulo'
+        'nails nails'
+        'footer footer';
+    }
+    .nails {
+        display: block;
+        font-size: small;
+        width: auto;
+        height: auto;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    .diseño {
+        width: 30%;
+    }
+    
+    .menu ul li {
+        font-size: small;
+    }
+    .ig {
+        left: 680px;
+    }
+    .fb {
+        left: 683px;
+    }
+
+}
