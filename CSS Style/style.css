@@ -1,71 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Merienda+One&display=swap');
-
 /*comienzo del body*/
 body {
     background-color: #ff329d;
-    position: relative;
-    height: 200px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows:repeat(3, 1fr) ;
-    grid-template-areas: 
-    'header header header'
-    'galeria galeria galeria'
-    'footer footer footer';
+    width: 100%;
 }
 /*comienzo del header*/
-.header {
-    grid-area: header;
-    display: flex;
-    position: relative;
+header {
     background-color: #f8c504;
-    border-top: 5px;
+    margin-top: 5px;
     height: 110px;
+    width: auto;
 }
 .navegador {
     margin-left: auto;
 }
-.logo {
-    margin-left: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    position: relative;
-}
-.menu ul li {
-    list-style: none;
-    display: inline-block;
-    font-family: 'Merienda One', cursive;
-    font-size: 22px;
-    transition: 3s all;
-}
-.menu ul li a {
-    text-decoration: none;
-    padding: 22px;
-    display: block;
-    color: #04558a;
+
+.navbar-nav {
     margin-top: 13px;
     text-shadow: 1px 1px white;
+    font-family: 'Merienda One', cursive;
+    font-size: 22px; 
 }
-.menu ul li :hover {
+.collapse {
+    justify-content: flex-end;
+}
+.nav-link {
+    color: #04558a;
+    transition: 1s all;
+}
+.nav-link:hover {
     font-size: 26px;
 }
-
-/* comienzo de la galeria del index*/
-.galeria {
-    grid-area: galeria;
-    display: flex;
+/*comienzo del content*/
+.container {
+    margin: 0px;
+    display: inline;
+}
+.card {
     font-family: 'Merienda One', cursive;
     text-align: center;
-    margin-top: auto;
-    margin-left: 2px
-}
-.imgResponsive {
     padding: 60px;
-    border-radius: 50px;
+    margin: 0px;
+}
+.containerPrincipal {
+    margin-left: 10px;
+}
+/*comienzo de Insumos*/
+.card-img-top {
+    max-width: 400px;
 }
 /*comienzo del footer*/
 .footer {
-    grid-area: footer;
     position: relative;
     background-color: #f8c504;
     height: 100px;
@@ -88,7 +73,7 @@ body {
 .experiencia {
     position: relative;
     line-height: 2.5px;
-    bottom: 105px;
+    bottom: 75px;
     margin-left: 5px;
    
 }
@@ -96,31 +81,59 @@ body {
     text-align: center;
     bottom: 110px;
 }
-@media screen and (max-width: 768px) {
-    body {
-        height: 0px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5,1fr);
-        grid-template-areas: 
-        'header header'
-        'galeria galeria'
-        'galeria galeria'
-        'footer footer';
-    }
-    .galeria {
-        display: block;
-        font-size: small;
-        margin-left: 50px;
-    }
+@media screen and (max-width: 768px){
     .menu ul li {
+        font-size: 13px;
+        transition: none;
+    }
+    .menu ul li :hover {
+        font-size: 15px;
+    }
+    .row {
+        justify-content: center;
+    }
+    .footer {
         font-size: small;
     }
     .ig {
-        left: 680px;
+        left: 660px;
     }
     .fb {
-        left: 683px;
+        left: 670px;
     }
-
+    
+}
+@media screen and (max-width: 425px) {
+    .footer {
+        font-size: x-small;
+    }
+    .ig {
+        left: 330px;
+    }
+    .fb {
+        left: 340px;
+    }
+    .experiencia {
+        margin-top: 10px;
+    }
+    
+}
+@media screen and (max-width: 320px) {
+    .footer {
+        font-size: xx-small;
+    }
+    .ig {
+        left: 230px;
+    }
+    .fb {
+        left: 240px;
+    }
+    .experiencia {
+        margin-top: 10px;
+    }
+    .marca {
+        margin-top: 50px;
+        margin-right: 40px;
+    }
+    
 }
