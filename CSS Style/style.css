@@ -45,9 +45,55 @@ header {
 .containerPrincipal {
     margin-left: 10px;
 }
+.card-body {
+    margin-right: 100px;
+}
 /*comienzo de Insumos*/
 .card-img-top {
     max-width: 400px;
+}
+/*comienzo nail art*/
+.titulo {
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+}
+.diseño {
+    max-width: 400px;
+    padding: 15px;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+.diseño:hover {
+    transform: scale(1.2);
+}
+/*comienzo de quienes somos*/
+.body-content {
+    font-family: 'Merienda One', cursive;
+    margin-top: 50px;
+}
+.title-content {
+    font-size: xx-large;
+    text-align: center;
+}
+.descripcion {
+    margin-top: 70px;
+    font-size: x-large;
+}
+.img-thumbnail {
+    max-width: 700px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+/*comienzo de contacto*/
+.mb-4 {
+    margin-left: 100px;
+}
+.title-contact {
+    font-family: 'Merienda One', cursive;
+    margin-right: 500px;
+}
+.col-md-3 {
+    font-family: 'Merienda One', cursive;
 }
 /*comienzo del footer*/
 .footer {
@@ -89,8 +135,33 @@ header {
     .menu ul li :hover {
         font-size: 15px;
     }
+    .card-img-top {
+        margin-left: 100px;
+    }
+    .card-body {
+        margin-right: 50px;
+        vertical-align: baseline;
+    }
+    .card-text {
+        font-size: small;
+    }
     .row {
         justify-content: center;
+    }
+    .body-content {
+        font-size: medium;
+        margin-left: 40px;
+    }
+    .mb-4 {
+        margin-left: 20px;
+    }
+    .title-contact {
+        font-family: 'Merienda One', cursive;
+        margin-right: 200px;
+        font-size: 14px;
+    }
+    .col-md-3 {
+        font-size: 14px;
     }
     .footer {
         font-size: small;
@@ -104,6 +175,32 @@ header {
     
 }
 @media screen and (max-width: 425px) {
+    .card-img-top {
+        margin-left: 05px;
+    }
+    .card-body {
+        margin-right: 25px;
+        vertical-align: baseline;
+    }
+    .card-text {
+        font-size: small;
+    }
+    .img-thumbnail {
+        max-width: 360px;
+    }
+    .title-content {
+        margin-right: 40px;
+        font-size: x-large;
+    }
+    .descripcion {
+        font-size: small;
+        margin-left: 5px;
+    }
+    .title-contact {
+        font-family: 'Merienda One', cursive;
+        margin-right: 15px;
+        font-size: 14px;
+    }
     .footer {
         font-size: x-small;
     }
@@ -119,6 +216,31 @@ header {
     
 }
 @media screen and (max-width: 320px) {
+    .card-img-top {
+        margin-left: 05px;
+    }
+    .card-body {
+        margin-right: 15px;
+        vertical-align: baseline;
+    }
+    .card-text {
+        font-size: small;
+    }
+    .img-thumbnail {
+        max-width: 260px;
+    }
+    .title-content {
+        margin-right: 40px;
+        font-size: large;
+    }
+    .descripcion {
+        font-size: x-small;
+        margin-right: 20px;
+    }
+    .title-contact {
+        font-family: 'Merienda One', cursive;
+        margin-right: 15px;
+    }
     .footer {
         font-size: xx-small;
     }
