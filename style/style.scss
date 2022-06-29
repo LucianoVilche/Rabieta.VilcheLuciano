@@ -5,32 +5,7 @@ body {
     width: 100%;
 }
 /*comienzo del header*/
-header {
-    background-color: #f8c504;
-    margin-top: 5px;
-    height: 110px;
-    width: auto;
-}
-.navegador {
-    margin-left: auto;
-}
-
-.navbar-nav {
-    margin-top: 13px;
-    text-shadow: 1px 1px white;
-    font-family: 'Merienda One', cursive;
-    font-size: 22px; 
-}
-.collapse {
-    justify-content: flex-end;
-}
-.nav-link {
-    color: #04558a;
-    transition: 1s all;
-}
-.nav-link:hover {
-    font-size: 26px;
-}
+@import "./header";
 /*comienzo del content*/
 .container {
     margin: 0px;
@@ -96,37 +71,7 @@ header {
     font-family: 'Merienda One', cursive;
 }
 /*comienzo del footer*/
-.footer {
-    position: relative;
-    background-color: #f8c504;
-    height: 100px;
-    font-family: 'Merienda One', cursive;
-}
-.footer .redes {
-    text-align: end;
-    margin-right: 5px;
-}
-.ig {
-    position: relative;
-    left: 1800px;
-    bottom: 30px;
-}
-.fb {
-    position: relative;
-    left: 1810px;
-    bottom: 30px;  
-}
-.experiencia {
-    position: relative;
-    line-height: 2.5px;
-    bottom: 75px;
-    margin-left: 5px;
-   
-}
-.marca {position: relative;
-    text-align: center;
-    bottom: 110px;
-}
+@import "./footer";
 @media screen and (max-width: 768px){
     .menu ul li {
         font-size: 13px;
@@ -257,5 +202,4 @@ header {
         margin-top: 50px;
         margin-right: 40px;
     }
-    
 }
