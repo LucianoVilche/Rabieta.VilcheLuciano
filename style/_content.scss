@@ -1,0 +1,29 @@
+.container {
+    margin: 0px;
+    display: inline;
+}
+.card {
+    text-align: center;
+    padding: 60px;
+    margin: 0px;
+}
+
+.containerPrincipal {
+    margin-left: 10px;
+}
+.card-body {
+    margin-right: 100px;
+}
+.boton {
+    @extend %boton;
+    font-size: 15px;
+}
+@import "./map";
+/*comienzo de Insumos*/
+.card-img-top {
+    max-width: 400px;
+}
+%boton {
+    color: #04558a;
+    font-family: "Merienda One", cursive;
+}

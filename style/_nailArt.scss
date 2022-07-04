@@ -1,0 +1,13 @@
+.titulo {
+    text-align: center;
+    font-family: 'Merienda One', cursive;
+}
+.diseño {
+    max-width: 400px;
+    padding: 15px;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+.diseño:hover {
+    transform: scale(1.2);
+}

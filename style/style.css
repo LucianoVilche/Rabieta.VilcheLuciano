@@ -45,7 +45,6 @@ header {
 }
 
 .card {
-  font-family: "Merienda One", cursive;
   text-align: center;
   padding: 60px;
   margin: 0px;
@@ -59,9 +58,28 @@ header {
   margin-right: 100px;
 }
 
+.boton {
+  font-size: 15px;
+}
+
+.card-title {
+  font-size: 25px;
+  font-family: "Merienda One", cursive;
+}
+
+.card-text {
+  font-size: 18px;
+  font-family: "Merienda One", cursive;
+}
+
 /*comienzo de Insumos*/
 .card-img-top {
   max-width: 400px;
+}
+
+.btn, .boton {
+  color: #04558a;
+  font-family: "Merienda One", cursive;
 }
 
 /*comienzo nail art*/
@@ -79,9 +97,7 @@ header {
 
 .diseño:hover {
   transform: scale(1.2);
-}
-
-/*comienzo de quienes somos*/
+} /*comienzo de quienes somos*/
 .body-content {
   font-family: "Merienda One", cursive;
   margin-top: 50px;
@@ -109,12 +125,20 @@ header {
 }
 
 .title-contact {
-  font-family: "Merienda One", cursive;
   margin-right: 500px;
+  font-family: "Merienda One", cursive;
+}
+
+.subtitle {
+  font-size: 20px;
 }
 
 .col-md-3 {
   font-family: "Merienda One", cursive;
+}
+
+.btn {
+  font-size: 20px;
 }
 
 /*comienzo del footer*/

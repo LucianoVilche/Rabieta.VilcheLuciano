@@ -7,69 +7,13 @@ body {
 /*comienzo del header*/
 @import "./header";
 /*comienzo del content*/
-.container {
-    margin: 0px;
-    display: inline;
-}
-.card {
-    font-family: 'Merienda One', cursive;
-    text-align: center;
-    padding: 60px;
-    margin: 0px;
-}
-.containerPrincipal {
-    margin-left: 10px;
-}
-.card-body {
-    margin-right: 100px;
-}
-/*comienzo de Insumos*/
-.card-img-top {
-    max-width: 400px;
-}
+@import "./content";
 /*comienzo nail art*/
-.titulo {
-    text-align: center;
-    font-family: 'Merienda One', cursive;
-}
-.diseño {
-    max-width: 400px;
-    padding: 15px;
-    transition: transform .2s;
-    margin: 0 auto;
-}
-.diseño:hover {
-    transform: scale(1.2);
-}
+@import "./nailArt";
 /*comienzo de quienes somos*/
-.body-content {
-    font-family: 'Merienda One', cursive;
-    margin-top: 50px;
-}
-.title-content {
-    font-size: xx-large;
-    text-align: center;
-}
-.descripcion {
-    margin-top: 70px;
-    font-size: x-large;
-}
-.img-thumbnail {
-    max-width: 700px;
-    margin-top: 50px;
-    margin-left: 30px;
-}
+@import "./quienesSomos";
 /*comienzo de contacto*/
-.mb-4 {
-    margin-left: 100px;
-}
-.title-contact {
-    font-family: 'Merienda One', cursive;
-    margin-right: 500px;
-}
-.col-md-3 {
-    font-family: 'Merienda One', cursive;
-}
+@import "./contacto";
 /*comienzo del footer*/
 @import "./footer";
 @media screen and (max-width: 768px){
