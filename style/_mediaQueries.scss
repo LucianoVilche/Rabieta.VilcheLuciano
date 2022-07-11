@@ -1,6 +1,9 @@
 
 /*Scss de media queries*/
 @media screen and (max-width: 768px){
+    header {
+        height: auto;
+    }
     .menu ul li {
         font-size: 13px;
         transition: none;
