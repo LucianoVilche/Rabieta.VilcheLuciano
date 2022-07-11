@@ -1,12 +1,14 @@
 @charset "UTF-8";
+/*style de scss*/
 @import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Merienda+One&display=swap");
-/*comienzo del body*/
+/*propiedades del body*/
 body {
   background-color: #ff329d;
   width: 100%;
 }
 
 /*comienzo del header*/
+/*Scss del header*/
 header {
   background-color: #f8c504;
   margin-top: 5px;
@@ -39,6 +41,7 @@ header {
 }
 
 /*comienzo del content*/
+/*Scss de content*/
 .container {
   margin: 0px;
   display: inline;
@@ -58,10 +61,15 @@ header {
   margin-right: 100px;
 }
 
+/*utilización del extend*/
 .boton {
   font-size: 15px;
 }
 
+/*utilización del map*/
+/*Scss de map*/
+/*creación del map*/
+/*utilización del map-get*/
 .card-title {
   font-size: 25px;
   font-family: "Merienda One", cursive;
@@ -77,12 +85,14 @@ header {
   max-width: 400px;
 }
 
+/*creación del extend*/
 .btn, .boton {
   color: #04558a;
   font-family: "Merienda One", cursive;
 }
 
 /*comienzo nail art*/
+/*scss de nail art*/
 .titulo {
   text-align: center;
   font-family: "Merienda One", cursive;
@@ -98,6 +108,7 @@ header {
 .diseño:hover {
   transform: scale(1.2);
 } /*comienzo de quienes somos*/
+/*Scss de quiensSomos*/
 .body-content {
   font-family: "Merienda One", cursive;
   margin-top: 50px;
@@ -120,6 +131,8 @@ header {
 }
 
 /*comienzo de contacto*/
+/*Scss de contacto*/
+/*creación del mixin*/
 .mb-4 {
   margin-left: 100px;
 }
@@ -129,6 +142,7 @@ header {
   font-family: "Merienda One", cursive;
 }
 
+/*utilización del mixin*/
 .subtitle {
   font-size: 20px;
 }
@@ -142,6 +156,7 @@ header {
 }
 
 /*comienzo del footer*/
+/*Scss del footer*/
 .footer {
   position: relative;
   background-color: #f8c504;
@@ -179,6 +194,8 @@ header {
   bottom: 110px;
 }
 
+/*comienzo de media queries*/
+/*Scss de media queries*/
 @media screen and (max-width: 768px) {
   .menu ul li {
     font-size: 13px;

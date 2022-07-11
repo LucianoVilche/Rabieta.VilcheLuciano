@@ -1,3 +1,6 @@
+/*Scss de contacto*/ 
+
+/*creación del mixin*/
 @mixin sizes($size) {
     font-size: $size; 
 }
@@ -8,6 +11,7 @@
     margin-right: 500px;
     font-family: 'Merienda One', cursive;
 }
+/*utilización del mixin*/
 .subtitle {
     @include sizes(20px)
 }
