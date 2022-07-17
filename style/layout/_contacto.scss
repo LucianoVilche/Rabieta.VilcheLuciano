@@ -1,0 +1,24 @@
+/*Scss de contacto*/ 
+
+/*creación del mixin*/
+@mixin sizes($size) {
+    font-size: $size; 
+}
+.mb-4 {
+    margin-left: 100px;
+}
+.title-contact {
+    margin-right: 500px;
+    font-family: 'Merienda One', cursive;
+}
+/*utilización del mixin*/
+.subtitle {
+    @include sizes(20px)
+}
+.col-md-3 {
+    font-family: 'Merienda One', cursive;
+}
+.btn {
+    @extend %boton;
+    font-size: 20px;
+}
