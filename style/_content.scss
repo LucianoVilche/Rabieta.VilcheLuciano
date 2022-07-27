@@ -20,7 +20,7 @@
     font-size: 15px;
 }
 /*utilización del map*/
-@import "./../base/map";
+@import "./map";
 /*comienzo de Insumos*/
 .card-img-top {
     max-width: 400px;
@@ -29,10 +29,4 @@
 %boton {
     color: #04558a;
     font-family: "Merienda One", cursive;
-<<<<<<< HEAD
-}
-.btn {
-    color: aliceblue;
-=======
->>>>>>> 5b15a4e64a641afe9c7e248234076dd3c9c7c6da
 }

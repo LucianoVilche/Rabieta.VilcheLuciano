@@ -91,13 +91,6 @@ header {
   font-family: "Merienda One", cursive;
 }
 
-<<<<<<< HEAD
-.btn {
-  color: aliceblue;
-}
-
-=======
->>>>>>> 5b15a4e64a641afe9c7e248234076dd3c9c7c6da
 /*comienzo nail art*/
 /*scss de nail art*/
 .titulo {
@@ -144,12 +137,6 @@ header {
   margin-left: 100px;
 }
 
-<<<<<<< HEAD
-/*utilización del mixin*/
-.title-contact {
-  margin-right: 500px;
-  font-family: "Merienda One", cursive;
-=======
 .title-contact {
   margin-right: 500px;
   font-family: "Merienda One", cursive;
@@ -157,7 +144,6 @@ header {
 
 /*utilización del mixin*/
 .subtitle {
->>>>>>> 5b15a4e64a641afe9c7e248234076dd3c9c7c6da
   font-size: 20px;
 }
 
@@ -210,49 +196,6 @@ header {
 
 /*comienzo de media queries*/
 /*Scss de media queries*/
-@media screen and (max-width: 1024px) {
-  .card-body {
-    margin-right: 0px;
-  }
-  .card-title {
-    font-size: 25px;
-  }
-  .card-text {
-    font-size: 13px;
-  }
-  .boton {
-    font-size: 15px;
-  }
-  .ism {
-    font-size: 18px;
-  }
-  .diseño {
-    max-width: 250px;
-  }
-  .img-thumbnail {
-    max-width: 500px;
-  }
-  .descripcion {
-    margin-top: 70px;
-    font-size: 16px;
-    margin-left: 20px;
-  }
-  .title-contact {
-    margin-left: 250px;
-  }
-  .my-4 {
-    font-size: 25px;
-  }
-  .subtitle {
-    font-size: 10px;
-  }
-  .ig {
-    left: 900px;
-  }
-  .fb {
-    left: 920px;
-  }
-}
 @media screen and (max-width: 768px) {
   header {
     height: auto;
@@ -264,15 +207,15 @@ header {
   .menu ul li :hover {
     font-size: 15px;
   }
+  .card-img-top {
+    margin-left: 100px;
+  }
   .card-body {
     margin-right: 50px;
     vertical-align: baseline;
   }
   .card-text {
     font-size: small;
-  }
-  .sell {
-    margin-left: 100px;
   }
   .row {
     justify-content: center;
@@ -286,27 +229,12 @@ header {
   }
   .title-contact {
     font-family: "Merienda One", cursive;
-    margin-right: 300px;
+    margin-right: 200px;
     font-size: 14px;
   }
   .col-md-3 {
     font-size: 14px;
   }
-  .diseño {
-    max-width: 350px;
-  }
-<<<<<<< HEAD
-  .descripcion {
-    margin-right: 24px;
-  }
-  .img-thumbnail {
-    margin-left: 150px;
-  }
-  .title-contact {
-    margin-right: 1200px;
-  }
-=======
->>>>>>> 5b15a4e64a641afe9c7e248234076dd3c9c7c6da
   .footer {
     font-size: small;
   }
@@ -341,17 +269,8 @@ header {
   }
   .title-contact {
     font-family: "Merienda One", cursive;
-    margin-left: 130px;
-  }
-  .my-4 {
-    font-size: 25px;
-  }
-  .subtitle {
-    font-size: 10px;
-  }
-  .descripcion {
-    font-size: 10px;
-    padding-right: 30px;
+    margin-right: 15px;
+    font-size: 14px;
   }
   .footer {
     font-size: x-small;
@@ -388,25 +307,10 @@ header {
     font-size: x-small;
     margin-right: 20px;
   }
-<<<<<<< HEAD
-  .subtitle {
-    text-align: justify;
-  }
-=======
->>>>>>> 5b15a4e64a641afe9c7e248234076dd3c9c7c6da
   .title-contact {
     font-family: "Merienda One", cursive;
-    margin-left: 0px;
+    margin-right: 15px;
   }
-  .my-4 {
-    font-size: 20px;
-  }
-<<<<<<< HEAD
-  .subtitle {
-    font-size: xx-small;
-  }
-=======
->>>>>>> 5b15a4e64a641afe9c7e248234076dd3c9c7c6da
   .footer {
     font-size: xx-small;
   }

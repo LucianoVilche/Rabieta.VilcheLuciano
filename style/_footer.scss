@@ -1,0 +1,32 @@
+/*Scss del footer*/
+.footer {
+    position: relative;
+    background-color: #f8c504;
+    height: 100px;
+    font-family: 'Merienda One', cursive;
+}
+.footer .redes {
+    text-align: end;
+    margin-right: 5px;
+}
+.ig {
+    position: relative;
+    left: 1800px;
+    bottom: 30px;
+}
+.fb {
+    position: relative;
+    left: 1810px;
+    bottom: 30px;  
+}
+.experiencia {
+    position: relative;
+    line-height: 2.5px;
+    bottom: 75px;
+    margin-left: 5px;
+   
+}
+.marca {position: relative;
+    text-align: center;
+    bottom: 110px;
+}
