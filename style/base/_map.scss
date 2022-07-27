@@ -1,0 +1,15 @@
+/*Scss de map*/
+/*creación del map*/
+$size: (
+    tTitle: 25px,
+    tText: 18px
+);
+/*utilización del map-get*/
+.card-title {
+    font-size: map-get($size, tTitle);
+    font-family: "Merienda One", cursive;
+}
+.card-text {
+    font-size: map-get($size, tText );
+    font-family: "Merienda One", cursive;
+}

@@ -1,0 +1,210 @@
+
+/*Scss de media queries*/
+@media screen and (max-width: 1024px){
+.card-body {
+    margin-right: 0px;
+}
+.card-title {
+    font-size: 25px;
+}
+.card-text {
+    font-size: 13px;
+}
+.boton {
+    font-size: 15px;
+}
+.ism {
+    font-size: 18px;
+}
+.diseño {
+    max-width: 250px;
+}
+.img-thumbnail {
+    max-width: 500px;
+}
+.descripcion {
+    margin-top: 70px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.title-contact {
+    margin-left: 250px;
+}
+.my-4 {
+    font-size: 25px;
+}
+.subtitle {
+    font-size: 10px;
+}
+.ig {
+    left: 900px;
+}
+.fb {
+    left: 920px;
+}
+}
+@media screen and (max-width: 768px){
+    header {
+        height: auto;
+    }
+    .menu ul li {
+        font-size: 13px;
+        transition: none;
+    }
+    .menu ul li :hover {
+        font-size: 15px;
+    }
+    .card-body {
+        margin-right: 50px;
+        vertical-align: baseline;
+    }
+    .card-text {
+        font-size: small;
+    }
+    .sell {
+        margin-left: 100px;
+    }
+    .row {
+        justify-content: center;
+    }
+    .body-content {
+        font-size: medium;
+        margin-left: 40px;
+    }
+    .mb-4 {
+        margin-left: 20px;
+    }
+    .title-contact {
+        font-family: 'Merienda One', cursive;
+        margin-right: 300px;
+        font-size: 14px;
+    }
+    .col-md-3 {
+        font-size: 14px;
+    }
+    .diseño {
+        max-width: 350px;
+    }
+    .descripcion {
+        margin-right: 24px;
+    }
+    .img-thumbnail {
+        margin-left: 150px;
+    }
+    .title-contact {
+        margin-right: 1200px;
+    }
+    .footer {
+        font-size: small;
+    }
+    .ig {
+        left: 660px;
+    }
+    .fb {
+        left: 670px;
+    }
+    
+}
+@media screen and (max-width: 425px) {
+    .card-img-top {
+        margin-left: 05px;
+    }
+    .card-body {
+        margin-right: 25px;
+        vertical-align: baseline;
+    }
+    .card-text {
+        font-size: small;
+    }
+    .img-thumbnail {
+        max-width: 360px;
+    }
+    .title-content {
+        margin-right: 40px;
+        font-size: x-large;
+    }
+    .descripcion {
+        font-size: small;
+        margin-left: 5px;
+    }
+    .title-contact {
+        font-family: 'Merienda One', cursive;
+        margin-left: 130px;
+    }
+    .my-4 {
+        font-size: 25px;
+    }
+    .subtitle {
+        font-size: 10px;
+    }
+    .descripcion {
+        font-size: 10px;
+        padding-right: 30px;
+    }
+    .footer {
+        font-size: x-small;
+    }
+    .ig {
+        left: 330px;
+    }
+    .fb {
+        left: 340px;
+    }
+    .experiencia {
+        margin-top: 10px;
+    }
+    
+}
+@media screen and (max-width: 320px) {
+    .card-img-top {
+        margin-left: 05px;
+    }
+    .card-body {
+        margin-right: 15px;
+        vertical-align: baseline;
+    }
+    .card-text {
+        font-size: small;
+    }
+    .img-thumbnail {
+        max-width: 260px;
+    }
+    .title-content {
+        margin-right: 40px;
+        font-size: large;
+    }
+    .descripcion {
+        font-size: x-small;
+        margin-right: 20px;
+    }
+    .subtitle {
+        text-align: justify;
+    }
+    .title-contact {
+        font-family: 'Merienda One', cursive;
+        margin-left: 0px;
+    }
+    .my-4 {
+        font-size: 20px;
+    }
+    .subtitle {
+        font-size: xx-small;
+        
+    }
+    .footer {
+        font-size: xx-small;
+    }
+    .ig {
+        left: 230px;
+    }
+    .fb {
+        left: 240px;
+    }
+    .experiencia {
+        margin-top: 10px;
+    }
+    .marca {
+        margin-top: 50px;
+        margin-right: 40px;
+    }
+}

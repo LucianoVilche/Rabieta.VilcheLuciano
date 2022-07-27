@@ -1,0 +1,21 @@
+/*style de scss*/
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Merienda+One&display=swap');
+/*propiedades del body*/
+body {
+    background-color: #ff329d;
+    width: 100%;
+}
+/*comienzo del header*/
+@import "./header";
+/*comienzo del content*/
+@import "./content";
+/*comienzo nail art*/
+@import "./nailArt";
+/*comienzo de quienes somos*/
+@import "./quienesSomos";
+/*comienzo de contacto*/
+@import "./contacto";
+/*comienzo del footer*/
+@import "./footer";
+/*comienzo de media queries*/
+@import "./../base/mediaQueries"

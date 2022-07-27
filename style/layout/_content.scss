@@ -1,0 +1,35 @@
+/*Scss de content*/
+.container {
+    margin: 0px;
+    display: inline;
+}
+.card {
+    text-align: center;
+    padding: 60px;
+    margin: 0px;
+}
+.containerPrincipal {
+    margin-left: 10px;
+}
+.card-body {
+    margin-right: 100px;
+}
+/*utilización del extend*/
+.boton {
+    @extend %boton;
+    font-size: 15px;
+}
+/*utilización del map*/
+@import "./../base/map";
+/*comienzo de Insumos*/
+.card-img-top {
+    max-width: 400px;
+}
+/*creación del extend*/
+%boton {
+    color: #04558a;
+    font-family: "Merienda One", cursive;
+}
+.btn {
+    color: aliceblue;
+}
