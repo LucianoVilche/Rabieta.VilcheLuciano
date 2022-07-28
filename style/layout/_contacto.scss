@@ -7,19 +7,17 @@
 .mb-4 {
     margin-left: 100px;
 }
-<<<<<<< HEAD
 /*utilización del mixin*/
 .title-contact {
     margin-right: 500px;
     font-family: 'Merienda One', cursive;
-=======
+}
 .title-contact {
     margin-right: 500px;
     font-family: 'Merienda One', cursive;
 }
 /*utilización del mixin*/
 .subtitle {
->>>>>>> 5b15a4e64a641afe9c7e248234076dd3c9c7c6da
     @include sizes(20px)
 }
 .col-md-3 {
